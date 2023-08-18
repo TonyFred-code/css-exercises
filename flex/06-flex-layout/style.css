@@ -21,7 +21,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 12px;
+  gap: 16px;
 }
 
 ul a {
@@ -31,12 +31,11 @@ ul a {
 
 .content {
   flex: 1;
-  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 img {
@@ -48,7 +47,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -61,7 +60,7 @@ input {
 
 .footer {
   display: flex;
-  padding: 12px;
+  padding: 16px;
   justify-content: space-between;
   background-color: #eee;
 }
